@@ -1,0 +1,77 @@
+		body{
+			background-color:#F5F5DC;
+			background-image: url(../Images/cover.png);
+			background-repeat: no-repeat;
+			background-size: 1350px 150px;
+		}
+		li a:active{
+			background-color:#c4b9a4;
+		}
+		li a:hover{background-color:#c4b9a4;}
+		li a:visited{background-color:#c4b9a4;}
+		ul{
+			overflow: hidden;
+			list-style-type: none;
+			font-family: Verdena;
+			margin: 0;
+			padding: 0;
+			height: 40px;
+			background-color: #e3dac9;
+		}
+		li{
+			float: left;
+		}
+		li a{
+			color: black;
+			display: block;
+			text-decoration: none;
+			text-align: center;
+			padding: 16px;
+		}
+		article{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 80%;
+		}
+		footer{
+			text-align: center;
+		}
+		header{
+			text-align: center;
+			font-family: Verdena;
+			margin: 40px 0;
+		}
+		.container{
+			text-align: center;
+		}
+		.insta{
+			background: url('../Images/Sprites.png') no-repeat -992px -401px;
+			width: 38px;
+			height: 37px;
+		}
+		.insta a:hover{
+			background: url('../Images/Sprites.png') no-repeat -992px -142px;
+			width: 38px;
+			height: 37px
+		}
+		.fb{
+			background: url('../Images/Sprites.png') no-repeat -349px -401px;
+			width: 38px;
+			height: 37px;
+		}
+		.fb a:hover{
+			background: url('../Images/Sprites.png') no-repeat -349px -142px;
+			width: 38px;
+			height: 37px;
+		}
+		.twitter{
+			background: url('../Images/Sprites.png') no-repeat -864px -403px;
+			width: 38px;
+			height: 33px;
+		}
+		.twitter a:hover{
+			background: url('../Images/Sprites.png') no-repeat -864px -144px;
+			width: 38px;
+			height: 33px;
+		}

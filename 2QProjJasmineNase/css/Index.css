@@ -1,0 +1,32 @@
+body{
+			background-color:#F5F5DC;
+			background-image: url(../Images/cover.png);
+			background-repeat: no-repeat;
+		}
+		ul li{
+			display: inline-block;
+			list-style:none;
+			font-family: Verdena;
+		}
+		header{
+			margin-left: 565px;
+			margin-top: 200px;
+			margin-right: 558px;
+			border-radius: 50%;
+			overflow: hidden;
+			border: 5px solid #F5F5DC;
+			border-color: #F5F5DC;
+		}
+		.link{
+			text-align: center;
+			font-size: 20px;
+		}
+		.link a{
+			text-decoration: none;
+		}
+		footer{
+			text-align: center;
+		}
+		article{
+			padding-left:275px;
+		}
